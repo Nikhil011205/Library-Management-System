@@ -1,0 +1,13 @@
+use lms;
+
+tables : booklist, issue
+
+booklist
+ID varchar(10) primary key
+bookname varchar(100)
+author varchar(50)
+status varchar(10)
+
+issue
+ID varchar(10) primary key
+name varchar(50)
